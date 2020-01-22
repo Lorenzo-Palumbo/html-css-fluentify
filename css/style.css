@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container-full{
+    background-color: #0d325a;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0d325a;
+}
+
+header{
+    padding-top: 15px
+}
+
+.logo{
+    float: left;
+    width: 10%
+}
+
+.menu{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    width: 50%
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+}
+
+.menu li a{
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.right{
+    float: left;
+    width: 40%;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+span{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 9px
+}
+
+.login{
+    border-color: #4e8cb6;
+    border-width: 1px;
+    padding: 8px 25px;
+    font-size: 11px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    background-color: #0d325a;
+    text-decoration: none;
+    opacity: .9;
+    margin-right: 9px
+}
+
+.struttura{
+    padding: 8px 25px;
+    font-size: 11px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    background-color: #7fb802;
+    text-decoration: none;
+}
+
+.scegli{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    width: 60%;
+}
+
+h1{
+    color: white;
+    font-size: 45px
+}
+
+.green{
+    padding-top: 50px;
+}
+
+.puls{
+    background-color: #7fb802;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 18px 30px;
+    text-decoration: none;
+    color: white
+}
+
+.grigio{
+    background-color: #f9f9f9;
+}
+
+.container{
+
+}
+
+.riga-grigia{
+    height: 100px;
+    background-color: #f9f9f9;
+    text-align: center;
+    line-height: 50px
+}
+
+h4{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.riga-grigia p{
+    font-size: 18px;
+    color: #999;
+}
+
+.bianco{
+    background-color: white
+}
+
+.riga-bianca{
+    width: 100%;
+    background-color: white
+}
+
+.cards{
+    width: 33.33%;
+    float: left;
+    height: 500px;
+    position: relative;
+    padding-top: 50px
+}
+
+#imm{
+    height: 160px;
+    margin-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h2 p{
+    position: absolute;
+}

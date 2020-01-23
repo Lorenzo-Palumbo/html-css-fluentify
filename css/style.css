@@ -91,7 +91,7 @@ span{
     border-radius: 5px;
     font-weight: 700;
     color: white;
-    background-color: #7fb802;
+    background-color: font-size: 23px;;
     text-decoration: none;
 }
 
@@ -160,7 +160,9 @@ h4{
     float: left;
     height: 500px;
     position: relative;
-    padding-top: 50px
+    padding: 50px 20px;
+    text-align: center;
+
 }
 
 #imm{
@@ -168,11 +170,36 @@ h4{
     margin-top: 5px;
     margin: 0 auto;
     text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    margin-bottom: 70px
 }
 
 h2 p{
     position: absolute;
+
+}
+
+h2{
+    font-size: 23px;
+    color: #7fb802
+}
+
+p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #999;
+}
+
+.bordo{
+    opacity: .3;
+    width: 32px;
+    border-top: 2px solid;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 20px 0
+}
+
+.secondo{
+    margin-top: 45px
 }

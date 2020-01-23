@@ -16,6 +16,7 @@ body{
 
 .container-full{
     background-color: #0d325a;
+    position: relative;
 }
 
 .container{
@@ -64,14 +65,15 @@ header{
     float: left;
 }
 
-span{
+.right a{
     color: rgba(255, 255, 255, 0.5);
     font-size: 11px;
     font-weight: bold;
-    margin-right: 9px
+    margin-right: 9px;
+    text-decoration: none;
 }
 
-.login{
+#login-button{
     border-color: #4e8cb6;
     border-width: 1px;
     padding: 8px 25px;
@@ -82,16 +84,17 @@ span{
     background-color: #0d325a;
     text-decoration: none;
     opacity: .9;
-    margin-right: 9px
+    margin-right: 9px;
+    cursor: pointer;
 }
 
-.struttura{
-    padding: 8px 25px;
+.right .struttura {
+    padding: 8px 10px;
     font-size: 11px;
     border-radius: 5px;
     font-weight: 700;
     color: white;
-    background-color: font-size: 23px;;
+    background-color: #7fb802;
     text-decoration: none;
 }
 
@@ -99,6 +102,13 @@ span{
     padding-top: 200px;
     padding-bottom: 50px;
     width: 60%;
+}
+
+.scegli img{
+    width: 800px;
+    position: absolute;
+    right: 0;
+    bottom: 0
 }
 
 h1{
